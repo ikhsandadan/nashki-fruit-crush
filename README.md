@@ -1,6 +1,8 @@
 # FRUIT CRUSH GAME FOR IMMUTABLE X STACKUP BOUNTY
 For this bounty, I have developed a game application inspired by **Candy Crush**. The game I created is based on **React** and seamlessly integrated with **Immutable Passport** and a smart contract. The smart contract I have developed is based on the **ImmutableERC721** preset from the **zkevm-boilerplate**, to which I have added additional functions. Additionally, I have deployed the smart contract using the **zkevm-boilerplate**.
 
+https://nashki-fruit-crush.netlify.app/
+
 # Playing Fruit Crush
 
 ![Image1](https://imageupload.io/ib/uCE7GKdhnKDYa1w_1698641705.png)
