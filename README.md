@@ -5,7 +5,7 @@ https://nashki-fruit-crush.netlify.app/
 
 # Playing Fruit Crush
 
-![Image1](https://imageupload.io/ib/uCE7GKdhnKDYa1w_1698641705.png)
+![1](https://github.com/ikhsandadan/nashki-fruit-crush/assets/116878888/48a3d3ea-26bd-45e4-96c5-978b411028ca)
 
 When a player opens the **Fruit Crush** page, they will be prompted to connect their wallet (in this case, using **Immutable Passport**) with the **Fruit Crush** app. To establish this connection, they can simply click the "Connect Passport" button located at the top-right corner of the page. If a player is not yet registered within the app, their data, including Passport wallet address, email, and points, will be automatically registered in the smart contract. I achieve this by:
 
@@ -23,7 +23,7 @@ When a player opens the **Fruit Crush** page, they will be prompted to connect t
 
 Here, I have chosen to input the email obtained from the player's Passport since I have not yet found a way to change the user's nickname in Passport, thus ensuring that the value is not `NULL`. Once the connection is established, the player will be redirected to the game page as follows:
 
-![image2](https://imageupload.io/ib/JQB5t9vh3H9frD7_1698642326.png)
+![2](https://github.com/ikhsandadan/nashki-fruit-crush/assets/116878888/c95296cf-e2af-4f37-ab3f-2383795a59ce)
 
 On the game page, there are three rows of elements from left to right. Starting from the leftmost, there's the Leaderboard table. In the middle section, you'll find the **Fruit Crush** game, and on the rightmost side, there is a table containing information on Score, Time Left, Start Game, Buy Lightning, and Add to My Points.
 
@@ -86,11 +86,11 @@ The "Buy Lightning" button allows players to purchase the Lightning power-up, wh
 ### Add to My Points
 This is the button to add the score to the points owned by the player by submitting the player's points to be recorded in the smart contract. I accomplish this using the same function used to add top scores, as seen in the Leaderboard section.
 
-![image3](https://imageupload.io/ib/U7r7VIR9WERH8V8_1698643275.png)
+![3](https://github.com/ikhsandadan/nashki-fruit-crush/assets/116878888/ff9ef612-7367-4843-83c7-d2f5df3cc7d6)
 
 If the points that the player has submitted to the smart contract are sufficient, they can exchange one of the NFTs available on the redeem page with the accumulated points. It can be observed that Medal NFT 1 and Medal NFT 3 are still claimable (yet to be claimed by anyone), while Medal NFT 2 has already been claimed by the wallet address listed. Here, I utilize the `mintNFT` function to send the NFT to the player's wallet, ensuring that each NFT can only be owned by one player.
 
-![image4](https://imageupload.io/ib/GDccueia6xSuy2a_1698643365.png)
+![4](https://github.com/ikhsandadan/nashki-fruit-crush/assets/116878888/b55f3426-28db-4ff9-81cd-82bfe94cb3cf)
 
 Finally, this is the player's profile page, displaying various data such as wallet address, email, wallet balance, points, and the collection of successfully claimed NFTs.
 
